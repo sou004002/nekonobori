@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - ground
+  - slope
+  - ladder
+  - moveFloor
+  - fish
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Bg_back
+  - Plants
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: cave
+    uniqueID: 3559836281
+    locked: 0
+  - name: Cloud
+    uniqueID: 2015047183
+    locked: 0
+  - name: Mountain
+    uniqueID: 3939221297
+    locked: 0
+  - name: Trees
+    uniqueID: 1274875191
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Clouds
+    uniqueID: 4041468391
+    locked: 0
+  - name: BackGround
+    uniqueID: 763810983
+    locked: 0
+  - name: Player
+    uniqueID: 1304957349
+    locked: 0
+  - name: Leaf
+    uniqueID: 2011288537
+    locked: 0
