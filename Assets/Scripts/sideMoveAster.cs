@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class sideMoveAster : MonoBehaviour
 {
-    private float time;
     public float swingWidth;
     private Rigidbody2D _rb;
     private SurfaceEffector2D _se;
@@ -14,7 +13,6 @@ public class sideMoveAster : MonoBehaviour
     
     void Start()
     {
-        time=0f;
         defaultPos=transform.position;
         _rb=GetComponent<Rigidbody2D>();
         _se=GetComponent<SurfaceEffector2D>();

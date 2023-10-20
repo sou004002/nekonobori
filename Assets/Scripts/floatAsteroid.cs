@@ -4,14 +4,12 @@ using UnityEngine;
 
 public class floatAsteroid : MonoBehaviour
 {
-    private float time;
     private float iniY;
     public float swingHeight;
     public float speed;
 
     void Start()
     {
-        time=0f;
         iniY=transform.position.y;
     }
 

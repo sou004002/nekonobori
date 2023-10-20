@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class moveBg : MonoBehaviour
 {
-    public GameObject camera;
+    public GameObject _camera;
     Vector3 cameraPos;
     float iniY;
     public float maxY;
@@ -17,14 +17,14 @@ public class moveBg : MonoBehaviour
 
     void LateUpdate()
     {
-        if(camera.transform.position.y<iniY){
+        if(_camera.transform.position.y<iniY){
         cameraPos=new Vector3(transform.position.x,iniY,0);
         }
-        else if(camera.transform.position.y>maxY){
+        else if(_camera.transform.position.y>maxY){
             cameraPos=new Vector3(transform.position.x,maxY,0);
         }
         else{
-        cameraPos=new Vector3(transform.position.x,camera.transform.position.y,0);
+        cameraPos=new Vector3(transform.position.x,_camera.transform.position.y,0);
         }
         transform.position=cameraPos;
         

@@ -7,7 +7,7 @@ public class walk : MonoBehaviour
 {
     private float speed = 4.0f;
     private float ladderSpeed=6.0f;
-    private float jumpForce=20.0f;
+    private float jumpForce=19.5f;
     private Rigidbody2D _rb;
     private Animator _anim;
     private SpriteRenderer _rend;
