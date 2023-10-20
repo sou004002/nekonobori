@@ -9,6 +9,7 @@ TagManager:
   - ladder
   - moveFloor
   - fish
+  - upkey
   layers:
   - Default
   - TransparentFX

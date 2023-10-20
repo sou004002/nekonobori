@@ -20,26 +20,27 @@ public class walk : MonoBehaviour
     private float InputY=0f;
     private float t;
     public bool isActCan=false;
+    public bool isUpKey=false;
+    public AudioClip jump;
+    AudioSource _audioSource;
 
-    // Start is called before the first frame update
+
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>(); 
         _anim = GetComponent<Animator>();
         _rend=GetComponent<SpriteRenderer>();
+        _audioSource=GetComponent<AudioSource>();
 
     }
 
-    // Update is called once per frame
+
     void Update()
     {
         t=Time.deltaTime;
-
         InputX = Input.GetAxisRaw("Horizontal");
         InputY=Input.GetAxisRaw("Vertical");
         if(Input.GetKeyDown(KeyCode.Space)&& isGrounded()){
-            // Debug.Log("a");
-            // _anim.SetTrigger("jumptrigger");
         }
         else if(Input.GetKey(KeyCode.Space)){
             if(isGrounded()){
@@ -53,6 +54,7 @@ public class walk : MonoBehaviour
             jumpst=true;
         }
         else if(Input.GetKeyUp(KeyCode.Space) && isGrounded()){
+            _audioSource.PlayOneShot(jump);
             Jump();
             jumpTime=0;
             jumpst=true;
@@ -96,11 +98,22 @@ public class walk : MonoBehaviour
             _rb.velocity=(new Vector2(InputX*speed,InputY*ladderSpeed));   
             }
         }
+
     }
     void OnTriggerEnter2D(Collider2D collider){
         if(collider.gameObject.tag=="fish"){
             isActCan=true;
             this.enabled=false;
         }
+        if(collider.gameObject.tag=="upkey"){
+            isUpKey=true;
+        }
     }
+    
+    void OnTriggerExit2D(Collider2D collider){
+        if(collider.gameObject.tag=="upkey"){
+            isUpKey=false;
+        }
+    }
+
 }

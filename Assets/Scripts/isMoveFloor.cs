@@ -21,11 +21,9 @@ public class isMoveFloor : MonoBehaviour
         _isGrounded=GetComponent<walk>().isGrounded();
         _addVelocity=_moveFloor.GetComponent<sideMoveAster>().velocity;
         Vector2 vel=_rb.velocity;
-        // Debug.Log(vel+_addVelocity);
         Vector2 newVel=new Vector2((vel+_addVelocity).x,0f);
         if(_isGrounded&& isCol){
             _rb.velocity=(newVel);
-            // Debug.Log("!!");
         }  
     }
 

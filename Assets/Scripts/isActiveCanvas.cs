@@ -7,7 +7,7 @@ public class isActiveCanvas : MonoBehaviour
     private GameObject _cat;
     private bool _isActCan;
     public Canvas canvas;
-    // Start is called before the first frame update
+
     void Start()
     {
         _cat=GameObject.Find("Cat-6-Idle_0");
@@ -15,7 +15,6 @@ public class isActiveCanvas : MonoBehaviour
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         _isActCan=_cat.GetComponent<walk>().isActCan;

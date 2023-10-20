@@ -8,14 +8,13 @@ public class moveBg : MonoBehaviour
     Vector3 cameraPos;
     float iniY;
     public float maxY;
-    // Start is called before the first frame update
+
     void Start()
     {
         iniY=transform.position.y;
         
     }
 
-    // Update is called once per frame
     void LateUpdate()
     {
         if(camera.transform.position.y<iniY){

@@ -9,19 +9,17 @@ public class clearTime : MonoBehaviour
     private bool _isActCan;
     private float t;
 
-    // Start is called before the first frame update
     void Start()
     {
         _cat=GameObject.Find("Cat-6-Idle_0");
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         _isActCan=_cat.GetComponent<walk>().isActCan;
         if(_isActCan){
-            clearText.text="TIME: "+t.ToString("0.0000")+"s";
+            clearText.text="TIME: "+t.ToString("0.000");
         }
         else{
             t+=Time.deltaTime;
