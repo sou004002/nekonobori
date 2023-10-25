@@ -2,11 +2,11 @@
 unityを用いて作成したジャンプアクションゲームです。
 
 # Features
-awsdキー。または矢印キーで移動、スペース長押し→離してジャンプです。
+awsdキー、または矢印キーで移動、スペース長押し→離してジャンプです。
 
 # Usage
-WebGL：https://unityroom.com/games/nekonobori
-Windows：https://sou004002.github.io/my-portfolio/ 
+WebGL：https://unityroom.com/games/nekonobori  
+Windows：https://sou004002.github.io/my-portfolio/   
 上記のリンクからexeファイルをダウンロードできます。
   
 # Author
