@@ -5,8 +5,8 @@ unityを用いて作成したジャンプアクションゲームです。
 awsdキー、または矢印キーで移動、スペース長押し→離してジャンプです。
 
 # Usage
-WebGL：https://unityroom.com/games/nekonobori  
-Windows：https://sou004002.github.io/my-portfolio/   
+WebGL：https://unityroom.com/games/nekonobori<br>
+Windows：https://sou004002.github.io/my-portfolio/<br>   
 上記のリンクからexeファイルをダウンロードできます。
   
 # Author
