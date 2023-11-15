@@ -14,7 +14,7 @@ awsdキー、または矢印キーで移動、スペース長押し→離して�
 [Sunny Land](https://assetstore.unity.com/packages/2d/characters/sunny-land-103349)<br>
 [Simple Fade Scene Transition System](https://assetstore.unity.com/packages/tools/particles-effects/simple-fade-scene-transition-system-81753)<br>
 [Pixel Skies DEMO Background pack](https://assetstore.unity.com/packages/2d/environments/pixel-skies-demo-background-pack-226622)<br>
-[Pet Cats Pixel Art Pack]([https://assetstore.unity.com/packages/2d/environments/pixel-skies-demo-background-pack-226622](https://assetstore.unity.com/packages/2d/characters/pet-cats-pixel-art-pack-248340)<br>
+[Pet Cats Pixel Art Pack](https://assetstore.unity.com/packages/2d/characters/pet-cats-pixel-art-pack-248340)<br>
 [Free Pixel Food](https://assetstore.unity.com/mega-bundles/30-for-30)<br>
 [2D Platfrom Tile Set - Cave](https://assetstore.unity.com/packages/2d/environments/2d-platfrom-tile-set-cave-61672)
 [2D Pixel Asteroids](https://assetstore.unity.com/packages/2d/environments/2d-pixel-asteroids-136477)<br>
