@@ -6,7 +6,7 @@ awsdキー、または矢印キーで移動、スペース長押し→離して�
 
 # Usage
 [unityroomでプレイ](https://unityroom.com/games/nekonobori)<br>
-[v1.0.0(Windows)]([https://sou004002.github.io/my-portfolio/](https://github.com/sou004002/nekonobori/releases/download/v1.0.0/nekonobori.zip))<br>   
+[v1.0.0(Windows)](https://github.com/sou004002/nekonobori/releases/download/v1.0.0/nekonobori.zip)<br>   
 
 
 # Asset
